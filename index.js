@@ -22,3 +22,12 @@ function writeCards(names, event) {
   }
   return messages;
 }
+
+function countDown(n) {
+  while(n >= 0) {
+    console.log(n);
+    debugger;
+    n -= 1;
+  }
+}
+countDown(10);
